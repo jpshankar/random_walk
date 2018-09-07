@@ -1,1 +1,1 @@
-from random_walk import RandomWalk
+from randomWalk.random_walk import RandomWalk 

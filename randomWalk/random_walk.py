@@ -4,7 +4,7 @@ from typing import Any, Callable, Dict, List
 
 from dataclasses import dataclass
 
-from steps_generating_exception import StepsGeneratingException
+from randomWalk.steps_generating_exception import StepsGeneratingException
 
 @dataclass(repr=False, eq=False, order=False, unsafe_hash=True)
 class RandomWalk:
