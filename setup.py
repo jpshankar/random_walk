@@ -7,7 +7,7 @@ setup(
     license='MIT',
     description='Implementation of RandomWalk',
     long_description=open('README.txt').read(),
-    url='https://github.com/jpshankar/',
+    url='https://github.com/jpshankar/random_walk',
     author='Javas Shankar',
     author_email='javasshankar@gmail.com'
 )
