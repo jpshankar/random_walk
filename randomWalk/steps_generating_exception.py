@@ -1,0 +1,2 @@
+class StepsGeneratingException(Exception):
+	pass
