@@ -1,10 +1,12 @@
-import pytest
+import pytest, sys
 
-from random_walk import RandomWalk
+sys.path.append('..')
+
+from randomWalk.random_walk import RandomWalk
 
 from typing import Generator
 
-from steps_generating_exception import StepsGeneratingException
+from randomWalk.steps_generating_exception import StepsGeneratingException
 
 from dataclasses import dataclass
 
