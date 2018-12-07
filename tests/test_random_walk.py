@@ -1,7 +1,5 @@
 import pytest, sys
 
-sys.path.append('..')
-
 from randomWalk.random_walk import RandomWalk
 
 from typing import Generator

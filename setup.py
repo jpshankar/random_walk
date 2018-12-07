@@ -9,5 +9,7 @@ setup(
     long_description=open('README.txt').read(),
     url='https://github.com/jpshankar/random_walk',
     author='Javas Shankar',
-    author_email='javasshankar@gmail.com'
+    author_email='javasshankar@gmail.com',
+	setup_requires=['pytest-runner'],
+	tests_require=['pytest']
 )
